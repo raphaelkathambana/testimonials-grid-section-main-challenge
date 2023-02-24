@@ -74,18 +74,23 @@ img {
 }
 
 .dark-desc-text {
-  color: hsl(217deg, 19%, 35%);
-  margin: 0;
-}
-
-.dark-header-text {
   color: hsl(210deg, 46%, 95%);
   margin: 0;
 }
 
+.dark-header-text {
+  color: hsl(0deg, 0%, 100%);
+  margin: 0;
+}
+
 .dark-paragraph-text {
-  color: hsl(217deg, 19%, 35%);
+  color: hsl(0deg, 0%, 81%);
   margin-top: 30px;
+}
+
+.purple-header-text {
+  color: hsl(0deg, 0%, 100%);
+  margin: 0;
 }
 
 .purple-desc-text {
@@ -95,5 +100,20 @@ img {
 
 .purple-paragraph-text {
   color: hsl(0deg, 0%, 81%);
+  margin-top: 30px;
+}
+
+.light-desc-text {
+  color: inherit;
+  margin: 0;
+}
+
+.light-header-text {
+  color: inherit;
+  margin: 0;
+}
+
+.light-paragraph-text {
+  color: inherit;
   margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
