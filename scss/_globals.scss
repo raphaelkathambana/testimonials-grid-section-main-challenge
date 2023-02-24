@@ -1,0 +1,29 @@
+$Moderate_violet: hsl(263, 55%, 52%);
+$grayish_blue: hsl(217, 19%, 35%);
+$blackish_blue: hsl(219, 29%, 14%);
+$Whitish: hsl(0, 0%, 100%);
+$Light_gray: hsl(0, 0%, 81%);
+$Light_grayish_blue: hsl(210, 46%, 95%);
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.story {
+    font-size: .8125rem;
+}
+
+.icon {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.desc {
+    padding: 5px 10px;
+}
