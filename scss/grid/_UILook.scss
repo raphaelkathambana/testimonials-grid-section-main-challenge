@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
