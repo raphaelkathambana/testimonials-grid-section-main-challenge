@@ -5,9 +5,17 @@ $Whitish: hsl(0, 0%, 100%);
 $Light_gray: hsl(0, 0%, 81%);
 $Light_grayish_blue: hsl(210, 46%, 95%);
 
-body {
-    font-family: 'Barlow Semi Condensed', sans-serif;
+html {
+    box-sizing: border-box;
+}
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .story {
     font-size: .8125rem;
