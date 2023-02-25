@@ -1,14 +1,23 @@
 html {
+  font-size: 100%;
   box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
-  width: 1440px;
-  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 375px;
+  margin: 0;
   padding: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
   display: flex;
+  flex: 2;
   flex-direction: row;
+  align-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -16,20 +25,37 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 
 .row-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  position: relative;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .story {
-  font-size: 0.8125rem;
+  font-size: 13px;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .icon {
@@ -50,101 +76,107 @@ img {
 #grid-1 {
   margin: 20px 15px;
   border-radius: 15px;
-  padding: 30px 40px;
-  width: 600px;
+  padding: 20px 30px;
+  width: 75%;
   box-shadow: 1px 1px 5px black;
-  background-color: hsl(263deg, 55%, 52%);
+  background-color: hsl(263, 55%, 52%);
 }
 
 #grid-1 img {
-  border: 3px solid hsl(263deg, 55%, 52%);
+  border: 3px solid hsl(263, 55%, 52%);
 }
 
 #grid-2 {
   margin: 20px 15px;
   border-radius: 15px;
-  padding: 30px 40px;
-  width: 300px;
+  padding: 20px 30px;
+  width: 25%;
   box-shadow: 1px 1px 5px black;
-  background: hsl(217deg, 19%, 35%);
+  background: hsl(217, 19%, 35%);
 }
 
 #grid-2 img {
-  border: 3px solid hsl(217deg, 19%, 35%);
+  border: 3px solid hsl(217, 19%, 35%);
 }
 
 .grid-3 {
   margin: 20px 15px;
   border-radius: 15px;
-  padding: 30px 40px;
-  width: 300px;
+  padding: 20px 30px;
+  width: 25%;
   box-shadow: 1px 1px 5px black;
-  background: hsl(0deg, 0%, 100%);
+  background: hsl(0, 0%, 100%);
 }
 
 #grid-3 img {
-  border: 3px solid hsl(217deg, 19%, 35%);
+  border: 3px solid hsl(217, 19%, 35%);
 }
 
 .grid-3-5 {
   margin: 20px 15px;
   border-radius: 15px;
-  padding: 30px 40px;
-  height: 636px;
+  padding: 20px 30px;
+  width: 45%;
+  border: 1px groove red;
   box-shadow: 1px 1px 5px black;
-  background: hsl(0deg, 0%, 100%);
+  background: hsl(0, 0%, 100%);
 }
 
 #grid-3-5 img {
-  border: 3px solid hsl(217deg, 19%, 35%);
+  border: 3px solid hsl(217, 19%, 35%);
 }
 
 #grid-4 {
   margin: 20px 15px;
   border-radius: 15px;
-  padding: 30px 40px;
-  width: 600px;
+  padding: 20px 30px;
+  width: 75%;
   box-shadow: 1px 1px 5px black;
-  background: hsl(219deg, 29%, 14%);
+  background: hsl(219, 29%, 14%);
 }
 
 #grid-4 img {
-  border: 3px solid hsl(263deg, 55%, 52%);
+  border: 3px solid hsl(263, 55%, 52%);
 }
 
 .dark-desc-text {
-  color: hsl(210deg, 46%, 95%);
+  color: hsl(0, 0%, 100%);
   margin: 0;
+  opacity: 50%;
 }
 
 .dark-header-text {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   margin: 0;
 }
 
 .dark-paragraph-text {
-  color: hsl(0deg, 0%, 81%);
+  color: hsl(0, 0%, 100%);
   margin-top: 30px;
+  opacity: 70%;
 }
 
 .purple-header-text {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 81%);
   margin: 0;
 }
 
 .purple-desc-text {
-  color: hsl(0deg, 0%, 81%);
+  color: hsl(0, 0%, 81%);
   margin: 0;
+  opacity: 50%;
 }
 
 .purple-paragraph-text {
-  color: hsl(0deg, 0%, 81%);
+  color: hsl(0, 0%, 81%);
   margin-top: 30px;
+  opacity: 70%;
 }
 
 .light-desc-text {
   color: inherit;
   margin: 0;
+  opacity: 50%;
 }
 
 .light-header-text {
@@ -154,5 +186,6 @@ img {
 
 .light-paragraph-text {
   color: inherit;
+  opacity: 70%;
   margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
