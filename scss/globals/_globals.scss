@@ -1,0 +1,27 @@
+@use "..\\util" as ut;
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    font-family: ut.$font;
+    background-color: ut.$Light_grayish_blue;
+}
+.story {
+    font-size: ut.$body-font-size;
+}
+h1 {
+    font-size:  ut.$heading-font-size;
+    font-weight: 600;
+}
+
+

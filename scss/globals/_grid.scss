@@ -1,0 +1,89 @@
+@use "..\\util"as u;
+
+.grid {
+    border-radius: 15px;
+    margin: 5px 20px 20px;
+    z-index: 0;
+    overflow: auto;
+    position: relative;
+    padding: 30px;
+
+    &__quote-sign {
+        position: absolute;
+        z-index: -1;
+        top: 5px;
+        right: 50px;
+        width: 106px;
+        height: 104px;
+        opacity: 70%;
+    }
+
+    &__header {
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+
+        &--light-purple {
+            border: 2px solid #a17ad2;
+        }
+        &--dark-purple {
+            border: 2px solid u.$Moderate_violet;
+        }
+    }
+
+    &__header img {
+        border-radius: 30px;
+        margin-right: 20px;
+        height: 42px;
+    }
+
+    &--inline {
+        display: inline-block;
+    }
+    &--inline p {
+        margin: 0;
+    }
+
+    &.purple {
+        background-color: u.$Moderate_violet;
+    }
+    &.blue-gray {
+        background-color: u.$grayish_blue;
+    }
+    &.white {
+        background-color: u.$Whitish;
+    }
+    &.blue-black {
+        background-color: u.$blackish_blue;
+    }
+}
+
+.grids {
+    max-width: 1440px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+
+    @include u.breakpoint-up(small) {
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    &__column {
+        display: grid;
+        &__row-1 {
+            display: inherit;
+            @include u.breakpoint-up(small) {
+                grid-template-columns: 1.75fr 1.25fr;
+            }
+        }
+        &__row-2 {
+            display: inherit;
+            @include u.breakpoint-up(small) {
+                grid-template-columns: 1.25fr 1.75fr;
+            }
+        }
+    }
+}
