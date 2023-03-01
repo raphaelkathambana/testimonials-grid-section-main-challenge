@@ -1,0 +1,27 @@
+$Moderate_violet: #7541c8;
+$grayish_blue: #48556a;
+$blackish_blue: #19212e;
+$Whitish: #ffffff;
+$Light_gray: #cfcfcf;
+$Light_grayish_blue: #ecf2f8;
+
+// Note for text colors:
+
+// 1. "Verified Graduate" has the same color as the person's name with 50% opacity
+// 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+
+$Mobile: 375px;
+$Desktop: 1440px;
+
+.white-text {
+    color: $Light_gray;
+}
+.dark-text {
+    color: $grayish_blue;
+}
+.desc {
+    opacity: 50%;
+}
+.paragraph {
+    opacity: 70%;
+}

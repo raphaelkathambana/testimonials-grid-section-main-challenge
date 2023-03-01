@@ -1,0 +1,21 @@
+@use "..\\util\\" as u;
+
+.grid {
+    border-radius: 15px;
+    margin: 5px 20px 20px;
+    padding: 30px;
+
+    &.purple {
+        background-color: u.$Moderate_violet;
+    }
+    &.blue-gray {
+        background-color: u.$grayish_blue;
+    }
+    &.white {
+        background-color: u.$Whitish;
+    }
+    &.blue-black {
+        background-color: u.$blackish_blue;
+    }
+
+}
