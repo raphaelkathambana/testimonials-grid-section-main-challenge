@@ -1,8 +1,5 @@
 #grid-1 {
-    margin: 20px 15px;
     border-radius: 15px;
-    padding: 20px 30px;
-    width: 75%;
     box-shadow: 1px 1px 5px black;
     background-color: $Moderate_violet;
 }
@@ -10,10 +7,7 @@
     border: 3px solid $Moderate_violet;
 }
 #grid-2 {
-    margin: 20px 15px;
     border-radius: 15px;
-    padding: 20px 30px;
-    width: 25%;
     box-shadow: 1px 1px 5px black;
     background: $grayish_blue;
 }
@@ -21,10 +15,7 @@
     border: 3px solid $grayish_blue;
 }
 .grid-3 {
-    margin: 20px 15px;
     border-radius: 15px;
-    padding: 20px 30px;
-    width: 25%;
     box-shadow: 1px 1px 5px black;
     background: $Whitish;
 }
@@ -32,10 +23,7 @@
     border: 3px solid $grayish_blue;
 }
 .grid-3-5 {
-    margin: 20px 15px;
     border-radius: 15px;
-    padding: 20px 30px;
-    width: 45%;
     border: 1px groove red;
     box-shadow: 1px 1px 5px black;
     background: $Whitish;
@@ -44,58 +32,10 @@
     border: 3px solid $grayish_blue;
 }
 #grid-4 {
-    margin: 20px 15px;
     border-radius: 15px;
-    padding: 20px 30px;
-    width: 75%;
     box-shadow: 1px 1px 5px black;
     background: $blackish_blue;
 }
 #grid-4 img {
     border: 3px solid $Moderate_violet;
-}
-
-.dark-desc-text {
-    color: $Whitish;
-    margin: 0;
-    opacity: 50%;
-
-}
-.dark-header-text {
-    color: $Whitish;
-    margin: 0;
-}
-.dark-paragraph-text {
-    color: $Whitish;
-    margin-top: 30px;
-    opacity: 70%;
-}
-.purple-header-text {
-    color: $Light_gray;
-    margin: 0;
-}
-.purple-desc-text {
-    color: $Light_gray;
-    margin: 0;
-    opacity: 50%;
-}
-.purple-paragraph-text {
-    color: $Light_gray;
-    margin-top: 30px;
-    opacity: 70%;
-}
-.light-desc-text {
-    color: inherit;
-    margin: 0;
-    opacity: 50%;
-
-}
-.light-header-text {
-    color: inherit;
-    margin: 0;
-}
-.light-paragraph-text {
-    color: inherit;
-    opacity: 70%;
-    margin-top: 30px;
 }
