@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [URL to live site(Netlify)](https://thunderous-melba-17ce53.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-testimonial-website-section-using-css-grid-97kyS5zjx8)
+- Live Site URL: [Netlify](https://thunderous-melba-17ce53.netlify.app/)
 
 ## My process
 
